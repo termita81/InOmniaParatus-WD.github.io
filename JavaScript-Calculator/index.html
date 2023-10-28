@@ -63,9 +63,9 @@
         <button class="open-legend-modal" id="open-modal"> Help</button>
         <div class="calculator">
             <p class="copyright"><span>&copy;</span> <a
-                href="https://github.com/InOmniaParatus-WD/InOmniaParatus-WD.github.io" target="_blank">Ioana
-                Popa</a>
-        </p>
+                    href="https://github.com/InOmniaParatus-WD/InOmniaParatus-WD.github.io" target="_blank">Ioana
+                    Popa</a>
+            </p>
             <div id="display">
                 <div class="output" id="output-value">
                 </div>
@@ -101,10 +101,38 @@
 
             </div>
         </div>
-      
+
     </div>
 
     <script src="JS/app.js" type="module"></script>
+
+    <!-- script>
+        function loadScript(source) {
+            const script = document.createElement('script');
+            script.src = source;
+            // add as module, to support 'import'
+            // script.type = 'module'
+            document.body.appendChild(script);
+            return script
+        }
+
+        function loadStyle(source) {
+            const link = document.createElement('link')
+            link.rel = 'stylesheet'
+            link.href = source
+            document.head.appendChild(link)
+            return link
+        }
+
+        function runTests() {
+            loadScript('JS/tests.js')
+        }
+
+        // temp
+        // runTests()
+    </script -->
+
+    <script src="JS/tests.js" type="module"></script>
 </body>
 
 </html>
